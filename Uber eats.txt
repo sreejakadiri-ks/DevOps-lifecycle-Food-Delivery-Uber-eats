@@ -1,0 +1,75 @@
+📦 DevOps Lifecycle for a Food Delivery App
+DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to shorten the development lifecycle and deliver high-quality software continuously. For a food delivery app, DevOps ensures that features like restaurant search, order placement, real-time tracking, and payment work smoothly.
+
+🔁 DevOps Lifecycle Stages
+1. Plan
+Goal: Define features like real-time tracking, payment systems, user login, delivery partner app, etc.
+
+Activities:
+
+Collect feedback from users and restaurants.
+
+Use tools like JIRA, Trello, or Azure Boards to manage requirements and tasks.
+
+2. Develop
+Goal: Build the application code for different modules – user app, delivery app, restaurant dashboard.
+
+Activities:
+
+Use frameworks like React Native, Flutter, or Android Studio.
+
+Collaborate using Git with platforms like GitHub, GitLab, or Bitbucket.
+
+3. Build & Integrate (CI)
+Goal: Automatically compile and test the code.
+
+Activities:
+
+Use CI tools like Jenkins, GitHub Actions, or CircleCI.
+
+Combine code from multiple developers and ensure it works together.
+
+4. Test
+Goal: Ensure app works properly (no bugs).
+
+Activities:
+
+Automated testing of order placement, payment flow, location tracking.
+
+Use testing tools like Selenium, JUnit, or Appium.
+
+5. Release
+Goal: Push the tested version to users.
+
+Activities:
+
+Release updates on Play Store and App Store.
+
+Use version control and tagging to manage releases.
+
+6. Deploy
+Goal: Automatically deploy new features to servers.
+
+Activities:
+
+Use containerization with Docker and orchestration with Kubernetes.
+
+Use AWS, Azure, or Google Cloud for scalable hosting.
+
+7. Operate
+Goal: Run the app efficiently with high availability.
+
+Activities:
+
+Monitor server health, performance, and scalability.
+
+Use tools like Prometheus, Grafana, New Relic.
+
+8. Monitor & Feedback
+Goal: Continuously track performance and gather user feedback.
+
+Activities:
+
+Get real-time feedback on delivery issues, app crashes, delays.
+
+Use logs and tools like ELK Stack, Datadog, or Sentry.
